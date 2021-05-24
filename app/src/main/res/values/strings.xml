@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="app_name">Products</string>
+    <string name="one_in_stock">only 1 left in stock</string>
+    <string name="in_stock">in stock</string>
+    <string name="qt_items">items in your cart</string>
+    <string name="message_api_error">Houve um problema ao se comunicar com a API, por favor, tente novamente</string>
+    <string name="message_ops">Erro!</string>
+    <string name="fechar">FECHAR</string>
+    <string name="lbl_total_products">TOTAL</string>
+    <string name="lbl_sub_total_products">Subtotal</string>
+    <string name="lbl_shipping">Shipping</string>
+    <string name="lbl_tax">TAX</string>
+    <string name="app_name_title">Cart</string>
+    <string name="app_name_detail">Product Details</string>
+    <string name="txt_button_checkout">CHECKOUT</string>
+    <string name="txt_button_remove">REMOVE FROM CART</string>
+</resources>

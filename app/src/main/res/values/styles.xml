@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ListTitle">
+        <item name="android:textColor">@color/blackTitle</item>
+        <item name="android:tint">@color/blackTitle</item>
+        <item name="android:textSize">@dimen/textsize_3x</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="StyleButtonCheckout">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textsize_4x</item>
+    </style>
+
+    <style name="StyleButtonRemove">
+        <item name="android:textColor">@color/primaryDarkColor</item>
+        <item name="android:textSize">@dimen/textsize_4x</item>
+    </style>
+</resources>

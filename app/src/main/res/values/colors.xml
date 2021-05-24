@@ -1,0 +1,14 @@
+<resources>
+    <color name="primaryColor">#0267b2</color>
+    <color name="primaryLightColor">#5594e5</color>
+    <color name="primaryDarkColor">#003d82</color>
+    <color name="colorAccent">#f39200</color>
+    <color name="secondaryLightColor">#ffc346</color>
+    <color name="secondaryDarkColor">#ba6400</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="blackTitle">#000000</color>
+    <color name="colorLabelTotal">#9C9595</color>
+    <color name="colorLightGray">#C1B9B9</color>
+    <color name="colorButtonCheckout">#085F97</color>
+</resources>

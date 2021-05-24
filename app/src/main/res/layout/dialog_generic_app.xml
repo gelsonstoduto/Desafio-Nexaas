@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idGeral">
+
+    <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.20"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.87"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/clMsg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryTextColor"
+            android:layout_marginStart="@dimen/margin_4x"
+            android:layout_marginEnd="@dimen/margin_4x"
+            android:layout_marginBottom="@dimen/margin_2x"
+            android:paddingTop="@dimen/margin_5x"
+            android:paddingBottom="@dimen/margin_5x"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_bottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+                android:id="@+id/tvMensagemGeneric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="mensagem"
+                android:textSize="@dimen/textsize_6x"
+                android:paddingStart="@dimen/margin_5x"
+                android:paddingEnd="@dimen/margin_5x"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tvMensagemDetalhe"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+                android:id="@+id/tvMensagemDetalhe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:lineSpacingMultiplier="2.0"
+                android:text="detalhe mensagem"
+                android:textSize="14sp"
+                android:layout_marginTop="@dimen/margin_5x"
+                android:paddingStart="@dimen/margin_5x"
+                android:paddingEnd="@dimen/margin_5x"
+                app:layout_constraintTop_toBottomOf="@id/tvMensagemGeneric"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+                android:id="@+id/tvSair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+                android:id="@+id/btFechar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fechar"
+                android:textAllCaps="false"
+                android:layout_marginBottom="@dimen/margin_3x"
+                android:layout_marginStart="@dimen/margin_3x"
+                android:layout_marginEnd="@dimen/margin_3x"
+                android:background="@color/colorAccent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
